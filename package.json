@@ -1,0 +1,19 @@
+{
+  "name": "html-secure-app",
+  "version": "1.0.0",
+  "description": "HTML Obfuscator Web App for Render",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.1.5",
+    "helmet": "^7.1.0",
+    "html-minifier": "^4.0.0",
+    "javascript-obfuscator": "^4.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
